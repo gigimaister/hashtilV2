@@ -1,0 +1,86 @@
+﻿
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1"
+    android:background="#ff2a2323"
+    android:clickable="false">
+    <ImageView
+        android:src="@drawable/hashtil_logo3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/imageView1"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:text="username"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#fff8f8f8" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_marginRight="5dp"
+        android:textColor="#fffffdfd" />
+    <TextView
+        android:text="password"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#ffffffff" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:layout_marginRight="5dp"
+        android:textColor="#fff5f5f5" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/systemlog"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="0.0dp"
+        android:textColor="#fffaf3f3"
+        android:textStyle="bold"
+        android:scrollbars="none"
+        android:layout_marginRight="00dp" />
+    <CheckBox
+        android:text="Remember Me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cbxRememberMe"
+        android:textColor="#fff0e2e2"
+        android:textSize="20sp"
+        android:checked="false" />
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/progressbarstyle"
+        android:id="@+id/progressBar1" 
+        android:indeterminate="true"/>
+    <Button
+        android:text="Send"
+        android:layout_width="match_parent"
+        android:layout_height="87.0dp"
+        android:id="@+id/send"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:backgroundTint="#ff03d924"
+        android:textSize="30sp"
+        android:clickable="true" />
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+﻿
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1"
+    android:background="#ff2a2323" >
+    <TextView
+        android:text="טוקן נשלח"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="100.5dp"
+        android:id="@+id/textView1"
+        android:textColor="#fff3f0f0"
+        android:textSize="35sp"
+        android:layout_marginRight="110dp" />
+    <Button
+        android:text="חזרה"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnback"
+        android:layout_marginTop="70dp"
+        android:textSize="27sp" />
+</LinearLayout>

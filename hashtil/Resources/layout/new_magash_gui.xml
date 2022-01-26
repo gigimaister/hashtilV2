@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="wrap_content"
+    p1:id="@+id/linearLayout1">
+    <Syncfusion.SfDataGrid.SfDataGrid
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/sfDataGrid1"/>
+</LinearLayout>

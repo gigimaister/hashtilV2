@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "95708545502",
+    "firebase_url": "https://hashtil-9b485.firebaseio.com",
+    "project_id": "hashtil-9b485",
+    "storage_bucket": "hashtil-9b485.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95708545502:android:02fae78765bf2491d4dd4f",
+        "android_client_info": {
+          "package_name": "com.hashtilinc.hashtil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95708545502-1cl34m4rldsj1upa4e223er8gstoiecb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5uEDLMXs1C3bE9g0VRdo-snQDi2X1V70"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95708545502-1cl34m4rldsj1upa4e223er8gstoiecb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

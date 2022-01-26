@@ -1,0 +1,85 @@
+﻿
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff2a2323">
+    <ImageView
+        android:src="@drawable/hashtil_logo3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/imageView1"
+        android:layout_marginTop="15dp" />
+    <TextView
+        android:text="ממוצע"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_below="@id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dip"
+        android:textStyle="bold"
+        android:textColor="#ffeee5e5" />
+
+    <EditText
+        android:id="@+id/entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:layout_below="@id/textView1"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:text="הערות"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_below="@id/entry"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dip"
+        android:textStyle="bold"
+        android:textColor="#ffeee5e5" />
+    <EditText
+        android:id="@+id/remarks"
+        android:layout_width="match_parent"
+        android:layout_height="98.5dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_below="@id/textView2"
+        android:inputType="text"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="150dp"
+        android:text="שלח"
+        android:backgroundTint="#ff00c853"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/ok"
+        android:layout_below="@id/textView2"
+        android:layout_marginTop="150dp"
+        android:text="חזרה"
+        android:layout_marginRight="170dip"
+        android:backgroundTint="#ffaf9898"
+        android:textStyle="bold" />
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar1"
+        android:background="@drawable/progressbarstyle"
+        android:indeterminate="true"
+        android:layout_marginTop="330dp" />
+</RelativeLayout>

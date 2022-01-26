@@ -1,0 +1,99 @@
+﻿
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1"
+    android:background="#ff2a2323"
+    tools:gridSpec="1|8|#0093eeff|K:#ee8700ff:16,l:72,l:16,r|S:#83ee00ff:16,0,l:16,56,l:16,0,r">
+    <ImageView
+        android:src="@drawable/hashtil_logo3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/imageView1"
+        android:layout_marginTop="15dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="67.5dp"
+        android:id="@+id/scanresult"
+        android:textColor="#fff8f3f3"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp" />
+    <Button
+        android:text="พร้อมแล้ว/מוכן"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/btnReady"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:backgroundTint="#779933"
+        android:layout_marginBottom="1.5dp"
+        android:textSize="30sp"
+        android:textDirection="ltr"
+        android:drawableEnd="#ffa71919" />
+    <Button
+        android:text="เฉลี่ย/ממוצע"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/btnProblem"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:backgroundTint="#ffb253da"
+        android:layout_marginBottom="1.5dp"
+        android:textSize="30sp" />
+    <Button
+        android:text="ถาดใหม่/חדשים"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/btnmoving_new"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:backgroundTint="#969696"
+        android:layout_marginBottom="1.5dp"
+        android:textSize="30sp"
+        android:textColor="#ff120707" />
+    <Button
+        android:text="ย้ายถาด/שינוע"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/btnmoving_inside"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:backgroundTint="#FEE851"
+        android:layout_marginBottom="1.5dp"
+        android:textSize="30sp" />
+    <Button
+        android:text="ביקורת חציון"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/btnaudit_pass"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:backgroundTint="#ffe91e63"
+        android:layout_marginBottom="1.5dp"
+        android:textSize="30sp" />
+    
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar1"
+        android:background="@drawable/progressbarstyle"
+        android:indeterminate="true"
+        android:layout_marginTop="1dp" />
+    <Button
+        android:text="המשך"
+        android:layout_width="match_parent"
+        android:layout_height="49.5dp"
+        android:id="@+id/btnnextpage"
+        android:background="#ffeeeeee"
+        android:textStyle="bold" />
+</LinearLayout>

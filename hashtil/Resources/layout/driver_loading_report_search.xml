@@ -1,0 +1,67 @@
+﻿
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff322a2a"
+    android:id="@+id/gridLayout1"
+    android:rowCount="10"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:id="@+id/logo"
+        android:src="@drawable/hashtil_logo3"
+        android:layout_marginTop="25dp"
+        android:layout_row="0"
+        android:layout_gravity="center_horizontal" 
+    />
+    <Button
+        android:text="דוח יומי"
+        android:id="@+id/btndayreport"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:background="#ff33691e" />
+    <Button
+        android:text="דוח חודשי"
+        android:id="@+id/btncurrentmonth"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:background="#ff827717" />
+    <Button
+        android:text="דוח חודש קודם"
+        android:id="@+id/btnlastmonth"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:background="#ff7ab2b1" 
+       
+       />
+    <ProgressBar
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/progressBar1"
+                    android:background="@drawable/progressbarstyle"
+                    android:indeterminate="true"
+                    android:layout_marginTop="30dp" />
+   
+   
+    
+   
+   
+    
+
+</GridLayout>

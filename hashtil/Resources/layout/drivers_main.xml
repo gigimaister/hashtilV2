@@ -1,0 +1,76 @@
+﻿
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff322a2a">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_marginBottom="43.0dp">
+        <Button
+            android:text="יציאה"
+            android:layout_width="99.5dp"
+            android:layout_height="50.0dp"
+            android:id="@+id/logout"
+            android:layout_gravity="top|right"
+            android:background="@drawable/costum_btn_log_out"
+            android:textStyle="bold"
+            android:layout_marginTop="2dp" 
+            
+             />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:id="@+id/logo"
+            android:src="@drawable/hashtil_logo3"
+            android:layout_marginTop="2dp" />
+        <TextView
+            android:text="User:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="35sp"
+            android:textColor="#fff8eded" />
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="171.5dp"
+            android:layout_height="40.0dp"
+            android:id="@+id/mainusernm"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="#fffaf0f0"
+            android:layout_gravity="left"
+            android:layout_marginLeft="15dp" />
+        <Button
+            android:text="דוח איסופים"
+            android:layout_width="match_parent"
+            android:layout_height="82.0dp"
+            android:id="@+id/scan"
+            android:textSize="25sp"
+            android:background="#ff33af28"
+            android:layout_marginTop="60dp"
+            android:textStyle="bold" 
+             />
+        <Button
+            android:text="הזנה ידנית"
+            android:layout_width="match_parent"
+            android:layout_height="82.0dp"
+            android:id="@+id/u_insertbyhand"
+            android:textSize="25sp"
+            android:background="#ffd5df27"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold" 
+             />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

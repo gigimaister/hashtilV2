@@ -1,0 +1,133 @@
+﻿
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff2a2323"
+    tools:gridSpec="0|8|#0093eeff|K:#ee8700ff:16,l:72,l:16,r|S:#83ee00ff:16,0,l:16,56,l:16,0,r">
+    <ImageView
+        android:src="@drawable/hashtil_logo3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/imageView1"
+        android:layout_marginTop="15dip">
+    </ImageView>
+    <TextView
+        android:id="@+id/chooseps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="בחירת מצב מזרע"
+        android:layout_below="@id/imageView1"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:paddingRight="5dp" />
+    <CheckBox
+        android:text="תקין"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chooseps"
+        android:id="@+id/goodpassport"
+        android:textColor="#ffffffff"
+        android:paddingRight="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="40dp" />
+    <CheckBox
+        android:text="חולה"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/goodpassport"
+        android:id="@+id/sick"
+        android:textColor="#ffffffff"
+        android:paddingRight="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="40dp"/>
+    <CheckBox
+        android:text="שרוף"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sick"
+        android:id="@+id/burn"
+        android:textColor="#ffffffff"
+        android:paddingRight="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="40dp"/>
+    <CheckBox
+        android:text="תקוע"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/burn"
+        android:id="@+id/stuck"
+        android:textColor="#ffffffff"
+        android:paddingRight="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="40dp"/>
+    <CheckBox
+        android:text="בעיית נביטה קשה"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stuck"
+        android:id="@+id/bpavg"
+        android:textColor="#ffffffff"
+        android:paddingRight="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="40dp"/>
+    <TextView
+        android:text="הערות"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textremarks"
+        android:layout_below="@id/bpavg"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#ffeee5e5" 
+        android:paddingRight="5dp"/>
+    <EditText
+        android:id="@+id/shortremarks"
+        android:layout_width="match_parent"
+        android:layout_height="69.5dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_below="@id/bpavg"
+        android:inputType="text"
+        android:layout_marginTop="30dp"/>
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shortremarks"
+        android:layout_alignParentRight="true"       
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="40dp"
+        android:text="שלח"
+        android:backgroundTint="#ff18c025"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/ok"
+        android:layout_below="@id/shortremarks"
+        android:layout_marginTop="40dp"
+        android:text="חזרה"
+        android:layout_marginRight="170dip"
+        android:backgroundTint="#ffaf9898"
+        android:textStyle="bold" />
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar1"
+        android:background="@drawable/progressbarstyle"
+        android:indeterminate="true"
+        android:layout_marginTop="330dp" />
+   
+
+
+
+
+
+
+</RelativeLayout>

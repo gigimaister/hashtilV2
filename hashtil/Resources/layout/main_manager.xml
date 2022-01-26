@@ -1,0 +1,96 @@
+﻿
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1"
+    android:background="#ff322a2a">
+
+    <Button
+        android:text="יציאה"
+        android:layout_width="99.5dp"
+        android:layout_height="44.5dp"
+        android:id="@+id/logout"
+        android:layout_gravity="top|right"
+        android:background="@drawable/costum_btn_log_out"
+        android:textStyle="bold"
+        android:layout_marginTop="2dp" 
+        
+         />
+    <ImageView
+        android:src="@drawable/hashtil_logo3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/imageView1"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:text="User:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:textColor="#ffffffff"
+        android:layout_marginLeft="10dp" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:textColor="#ffffffff"
+        android:layout_marginLeft="10dp" />
+    <Button
+        android:text="דוח מצב הוצאות"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/btnmainmsg"
+        android:background="#ffafafaf"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp" />
+    <Button
+        android:text="חדשים"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/newpassportinsidegreenhouse"
+        android:background="#ff33af28"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp" />
+    <Button
+        android:text="שינועים"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/btninsideshinua"
+        android:background="#ffafafaf"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp" />
+    <Button
+        android:text="ביקורת חציון"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/btnauditreport"
+        android:background="#ff33af28"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp" />
+    <Button
+        android:text="דוחות נוספים"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/btnauditproblemreport"
+        android:background="#ffafafaf"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp" />
+    <Button
+        android:text="TOKEN שלח"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/btntoken"
+        android:background="#ff33af28"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp" />
+</LinearLayout>
