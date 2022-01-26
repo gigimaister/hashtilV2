@@ -192,6 +192,15 @@
                     android:background="@drawable/progressbarstyle"
                     android:indeterminate="true"
                     android:layout_marginTop="1dp" />
+                <EditText
+                    android:inputType="numberDecimal"
+                    android:layout_width="200px"
+                    android:textAlignment="center"
+                    android:id="@+id/MagashNumInput"
+                    android:layout_gravity="center"
+                    android:background="#ffe8dfdf"
+                    android:layout_height="95px" />
+
                 <Button
                     android:text="Send"
                     android:layout_width="match_parent"
